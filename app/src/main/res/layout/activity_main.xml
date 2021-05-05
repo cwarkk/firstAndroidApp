@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#a9a9a9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_weight='5'
+        android:scaleType="centerCrop"
+        android:src="@drawable/cafe" />
+
+
+    <TextView
+        android:id='@+id/description'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="\tThe idea of this institution was to give love to homeless kittens and people who felt lonely.
+        \n\n\tIn our cafe, you can not only have a delicious meal and drink coffee, but also spend time with the kittens, enjoy their company. Come and give your care to our kittens"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id='@+id/adress'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin='16dp'
+        android:text="You can find us by that adress:\n
+221b, Baker street"
+        android:textSize="16dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id='@+id/workingHours'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="We're working:\n From 8a.m. to 12p.m."
+        android:textSize="16dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id='@+id/contact'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="225dp"
+        android:text="Our contacts:\n+996708439543, +996772000250"
+        android:textSize="16dp"
+        android:textColor="@color/black" />
+
+</LinearLayout>
